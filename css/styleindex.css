@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Sansita&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    /*box-sizing: border-box*/
+    padding: 0;
+    margin: 0;
+}
+
+.konten {
+    width: 100%;
+    height: 870px;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -50px;
+
+
+}
+
+.kepala {
+    width: 100%;
+    height: 60px;
+    border-bottom: none;
+    box-shadow: 0px 5px 50px;
+    position: fixed;
+    z-index: 2;
+    /* border: 1px solid; */
+    background-color: #000;
+    opacity: 70%;
+
+}
+
+.kepala h1 {
+    /* padding-left: 15px; */
+    font-weight: 650;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    float: left;
+    /* border: 1px solid; */
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+.kepala h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.kepala ul {
+    /* border: 1px solid; */
+    height: 60px;
+    float: right;
+    margin-right: 100px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 24px;
+    width: auto;
+    /*padding-top: 8px;*/
+
+}
+
+.kepala ul li {
+    display: inline-block;
+    /* border: 1px solid; */
+    width: auto;
+    text-align: center;
+}
+
+.kepala ul li a {
+    padding: 18px 18px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid; */
+}
+
+.kepala ul li:hover {
+    background-color: #2e3238;
+    transition-duration: 1s;
+
+}
+
+/* .kepala ul li ul li {
+    width: 100%;
+    height: 60%;
+    border: 1px solid;
+} */
+
+.aktif {
+    background-color: #2e3238;
+}
+
+.home {
+    padding-top: 140px;
+    margin-left: 100px;
+    color: #3c424d;
+
+}
+
+.home h1 {
+    font-size: 72px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 8px;
+    /* border: 1px solid; */
+    /* margin-bottom: 20px; */
+    margin-top: 120px;
+    color: white;
+}
+
+.home h3 {
+    font-size: 36px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 500;
+    /* border: 1px solid; */
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+
+
+
+.home button {
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+
+.home button a {
+    font-size: 20px;
+    font-family: 'Sarala',
+        sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #B227FF;
+
+}
+
+.home button:hover {
+    background-color: #28CBFE;
+    transition-duration: 1s;
+}
+
+.service {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+.service h1 {
+    padding-top: 150px;
+    font-family: 'Oswald',
+        sans-serif;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-align: center;
+
+}
+
+.service p {
+    margin-top: 10px;
+    margin: 0 100px;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    font-family: 'Nunito',
+        sans-serif;
+    letter-spacing: 2px;
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+
+.box {
+    margin: 60px 100px;
+    display: inline-block;
+    /* border: 1px solid; */
+    text-align: center;
+    padding: 10px 30px;
+}
+
+
+.icon {
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid; */
+}
+
+.box h4 {
+    padding-top: 20px;
+    font-family: 'Oswald',
+        sans-serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.produk {
+    background-image: url(../images/bgatur.png);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+
+}
+
+.produk h1 {
+    padding-top: 100px;
+    font-family: 'Oswald',
+        sans-serif;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-align: center;
+
+}
+
+
+
+.deskripsi {
+    /* margin-top: 10px; */
+    margin: 0 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'Nunito',
+        sans-serif;
+    letter-spacing: 2px;
+    /* border: 1px solid; */
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.bg-slider {
+    height: 45rem;
+    background-color: #CFFEF2;
+    border: 1px solid;
+}
+
+.bg-slider .destiantion-tittle {
+    font-size: 4em !important;
+    color: #333;
+}
+
+.card-img-top {
+    height: 14rem !important;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.atur {
+    padding: 0 30px;
+}
+
+.tentang {
+    width: 100%;
+    height: 650px;
+
+}
+
+.gambar {
+    margin-top: 120px;
+    margin-left: 200px;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.kata {
+    width: 600px;
+    height: 320px;
+    border-color: 1px solid;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 700px;
+    color: white;
+    /* border: 1px solid; */
+    padding: 10px 30px;
+    border: 1px solid;
+
+
+}
+
+.kata h1 {
+    /* border: 1px solid; */
+    text-align: left;
+    /* margin-top: -100px; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.kata p {
+    font-family: 'Nunito',
+        sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: black;
+
+}
+
+.kata button {
+    width: 180px;
+    height: 50px;
+    background-color: #28CBFE;
+    border-radius: 100px;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.kata button a {
+    font-size: 20px;
+    font-family: 'Sarala',
+        sans-serif;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.kata button:hover {
+    background-color: #B227FF;
+    transition-duration: 1s;
+}
+
+
+.kontak {
+    width: 100%;
+    height: 850px;
+    background-image: url(../img/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.kontak h1 {
+    padding-top: 100px;
+    font-family: 'Oswald',
+        sans-serif;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-align: center;
+    color: white;
+    display: both;
+
+}
+
+.kontak p {
+
+    margin: 0 50px;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    font-family: 'Nunito',
+        sans-serif;
+    letter-spacing: 2px;
+    /* border: 1px solid; */
+    text-align: center;
+    color: white;
+}
+
+.peta {
+    padding-right: 100px;
+    float: right;
+
+}
+
+.formulir {
+    padding-left: 100px;
+    width: 550px;
+    float: left;
+
+}
+
+label {
+    font-size: 14pt;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+
+}
+
+.data {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+#pesan {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+
+}
+
+.tombol {
+    background-color: #6E6D6D;
+    width: 100px;
+    color: white;
+    border: none;
+    height: 40px;
+
+
+}
+
+.bg-footer {
+    background-color: #2B2F35;
+    height: 12rem;
+    align-items: center;
+}
+
+
+
+.bg-last {
+    background-color: #393E46;
+    height: 3rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
